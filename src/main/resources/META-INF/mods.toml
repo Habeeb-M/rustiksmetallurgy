@@ -25,7 +25,7 @@ credits="Thanks to the guys in MMD for all the help!" #optional
 authors="Habeeb_M/Rustik" #optional
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
+[[dependencies.metallurgy]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -37,7 +37,7 @@ authors="Habeeb_M/Rustik" #optional
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.metallurgy]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.14.4]"
